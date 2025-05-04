@@ -4,7 +4,7 @@
 ![Go Version](https://img.shields.io/github/go-mod/go-version/pierow2k/nogocomments)
 ![License](https://img.shields.io/github/license/pierow2k/nogocomments)
 ![Dependency Status](https://img.shields.io/librariesio/github/pierow2k/nogocomments)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9244c6e7b1c34502bb72af0df7ec29a9)](https://app.codacy.com/gh/pierow2k/nogocomments/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8b2dd9d63b4748988eed60c08f9f61f3)](https://app.codacy.com/gh/pierow2k/nogocomments/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 **nogocomments: Instantly Remove Comments from Your Go Code**
 
