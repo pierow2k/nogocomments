@@ -8,12 +8,16 @@
 
 **nogocomments: Instantly Remove Comments from Your Go Code**
 
-**nogocomments** is a command-line tool designed to simplify the process of removing comments from Go source code. Whether you're preparing code snippets for sharing, streamlining code reviews, or processing Go code programmatically, **nogocomments** is a fast and reliable solution. By focusing on efficiency and simplicity, it ensures that your code is ready for any context where comments might not be needed.
+**nogocomments** is a command-line tool designed to simplify the process
+of removing comments from Go source code. Whether you're preparing code
+snippets for sharing, streamlining code reviews, or simply trying to
+frustrate a co-worker, **nogocomments** is a fast and reliable solution. By
+focusing on efficiency and simplicity, it ensures that your code is ready
+for any context where comments might not be needed.
 
 | Before                                           | After |
 |--------------------------------------------------|----------------------------------------------------|
 | ![nogocomments Banner](./doc/example-before.png) | ![nogocomments Banner](./doc/example-after.png) |
-
 
 **Start streamlining your Go code today with nogocomments!**
 
@@ -32,19 +36,13 @@
 
 ### Precompiled Binaries
 
-Download precompiled binaries for your platform from the [Releases](https://github.com/pierow2k/nogocomments/releases) page.
-
-### Install Using `go install`
-
-Ensure [Go](https://golang.org/dl/) is installed, then run:
-
-```bash
-go install github.com/pierow2k/nogocomments@latest
-```
+Download precompiled binaries for your platform from the
+[Releases](https://github.com/pierow2k/nogocomments/releases) page.
 
 ### Clone and Build
 
-For manual builds, clone the repository and build using `go build`. This requires Go to be installed.
+For manual builds, clone the repository and build using `go build`. This
+requires Go to be installed.
 
 ```bash
 git clone https://github.com/pierow2k/nogocomments.git
@@ -53,6 +51,9 @@ go build
 ```
 
 ## Usage
+
+Each `nogocomments` release ships with a man page in `troff` (standard man
+page) format and [PDF format](./doc/nogocomments.1.pdf).
 
 ```bash
 nogocomments [OPTIONS]
@@ -97,11 +98,16 @@ nogocomments --debug --file /path/to/your/file.go
 
 We love community contributions! Here's how you can get involved:
 
-- **Report Issues**: Found a bug or have a feature request? Let us know by [opening an issue](https://github.com/pierow2k/nogocomments/issues).
-- **Submit a Pull Request**: If you've improved the tool or fixed an issue, [submit a pull request](https://github.com/pierow2k/nogocomments/pulls). Contributions are always welcome!
+- **Report Issues**: Found a bug or have a feature request? Let us know by
+[opening an issue](https://github.com/pierow2k/nogocomments/issues).
+- **Submit a Pull Request**: If you've improved the tool or fixed an issue,
+[submit a pull request](https://github.com/pierow2k/nogocomments/pulls).
+Contributions are always welcome!
 
-Your feedback and contributions make `nogocomments` better for everyone. Thank you for helping grow and refine this project!
+Your feedback and contributions make `nogocomments` better for everyone.
+Thank you for helping grow and refine this project!
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE)
+file for details.

@@ -108,4 +108,3 @@ dist/*
 site/public/*
 !site/public/.gitkeep
 doc/nogocomments.1
-doc/nogocomments.1.pdf

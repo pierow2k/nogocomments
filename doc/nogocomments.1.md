@@ -5,8 +5,7 @@
 NAME
 ====
 
-**nogocomments** - A utility tool for removing Go comments from source code.
-
+**nogocomments** - A tool for removing Go comments from source code.
 
 SYNOPSIS
 ========
@@ -43,7 +42,6 @@ OPTIONS
 :   Display the version information of the nogocomments tool, including
     the build date.
 
-
 EXAMPLES
 ========
 
@@ -75,8 +73,8 @@ REPORTING BUGS
 ==============
 
 Report bugs or suggest improvements via GitHub Issues:
-[https://github.com/pierow2k/nogocomments/issues/](https://github.com/pierow2k/nogocomments/issues/)
 
+https://github.com/pierow2k/nogocomments/issues/
 
 COPYRIGHT
 =========
