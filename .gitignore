@@ -1,4 +1,3 @@
-# Revised 2023-09-13
 # ---- GENERAL SYSTEM FILES ----
 #   macOS files
 **/.DS_Store
@@ -49,49 +48,8 @@ Thumbs.db
 .env
 .env.*
 
-# ---- IDE AND EDITOR FILES ----
-
-# SublimeText
-
-#   SublimeText cache files
-**/*.tmlanguage.cache
-**/*.tmPreferences.cache
-**/*.stTheme.cache
-
-#   SublimeText Project files should be checked into the repository
-# *.sublime-project
-
-#   SublimeText workspace files are user-specific
-**/*.sublime-workspace
-
-#   SublimeText Package Control
-**/Package Control.last-run
-**/Package Control.ca-list
-**/Package Control.ca-bundle
-**/Package Control.system-ca-bundle
-**/Package Control.cache/
-**/Package Control.ca-certs/
-**/Package Control.merged-ca-bundle
-**/Package Control.user-ca-bundle
-**/oscrypto-ca-bundle.crt
-**/bh_unicode_properties.cache
-
-#   Sublime-github package stores a github token in this file
-# https://packagecontrol.io/packages/sublime-github
-**/GitHub.sublime-settings
-
-# IntelliJ IDEA
-.idea/
-
 # VS Code
 .vscode/
-
-# Eclipse
-.eclipse
-.settings/
-
-# IntelliJ modules
-*.iml
 
 # SFTP configuration file
 **/sftp-config.json
@@ -105,6 +63,4 @@ bin/*
 !bin/.gitkeep
 dist/*
 !dist/.gitkeep
-site/public/*
-!site/public/.gitkeep
 doc/nogocomments.1
