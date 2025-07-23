@@ -1,29 +1,25 @@
 # https://editorconfig.org/
-# rev 2025-02-09
+# Revised 2025-07-23
 
 root = true
 
 [*]
-insert_final_newline = true
 charset = utf-8
+insert_final_newline = true
 trim_trailing_whitespace = true
 indent_style = tab
-indent_size = 2
+tab_width = 2      # how wide a tab renders
 
-[{Makefile,go.mod,go.sum,*.go,.gitmodules}]
-indent_style = tab
-indent_size = 4
+# Tabs everywhere above already; just change width for these:
+[{Makefile,go.mod,go.sum,*.go,.gitmodules,Dockerfile}]
+tab_width = 4
 
-[*.json]
+# Space-indented formats:
+[*.{yml,yaml,json}]
 indent_style = space
-indent_size = 2
-tab_width = 2
+indent_size  = 2
 
+# Markdown quirks:
 [*.md]
-indent_size = 4
 trim_trailing_whitespace = false
-
-eclint_indent_style = unset
-
-[Dockerfile]
-indent_size = 4
+tab_width = 4
