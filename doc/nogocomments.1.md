@@ -1,82 +1,61 @@
-% NOGOCOMMENTS(1) Version {{version}} | User Commands
+% nogocomments(1) Version {{version}}| General Commands Manual <!-- markdownlint-disable MD041 -->
 %
-% {{date}}
+% {{version}}
 
-NAME
-====
+# NAME
 
-**nogocomments** - A tool for removing Go comments from source code.
+**nogocomments** - Instantly Remove Comments from Your Go Code
 
-SYNOPSIS
-========
+# SYNOPSIS
 
-| **nogocomments** *\[OPTION\]*
+| **nogocomments** \[**INPUT_FILE**\] \[**OPTIONS**\]
 
-DESCRIPTION
-===========
+# DESCRIPTION
 
-nogocomments is a utility designed to clean up Go source code by removing
-comments. It can process Go source code either from a specified file or
-directly from the clipboard, effectively eliminating both line comments
-(beginning with "//") and inline comments (whitespace followed by "//").
-nogocomments writes its output to standard out, which can be redirected to
-a file if necessary. The tool aims to provide a straightforward solution
-for developers looking to clean up their code for documentation or sharing
-purposes without comments.
+`nogocomments` removes comments from Go source code. It reads Go code from
+a file or the system clipboard and writes the result to standard output. It
+supports both complete packages and standalone code snippets.
 
-OPTIONS
-=======
+# OPTIONS
 
-**\-\-debug**
-:   Enable debug level logging. This flag increases the verbosity of
-    the logging output, useful for debugging issues or understanding
-    the tool's operations in more detail.
+| Short | Long        | Description                              |
+| :---: | :---------- | :--------------------------------------- |
+| `-d`  | `--debug`   | Enable debug (verbose) logging           |
+| `-h`  | `--help`    | Show help                                |
+| `-p`  | `--paste`   | Read code from clipboard                 |
+| `-v`  | `--version` | Show version, build details, and license |
 
-**\-\-file** *\<file_path\>*
-:   Specify the file path to read the Go source code from.
+# EXAMPLES
 
-**\-\-paste**
-:   Read Go source code from the system clipboard.
+**Remove comments from Go source code that has been copied to the clipboard:**
 
-**\-\-version**
-:   Display the version information of the nogocomments tool, including
-    the build date.
+`nogocomments --paste`
 
-EXAMPLES
-========
+**Remove comments from a Go file and print the result to the terminal:**
 
-Remove comments from Go source code copied to the clipboard:
+`nogocomments --file /path/to/your/file.go`
 
-```bash
-nogocomments --paste
-```
+**Remove comments from a Go file and write the result to a new file:**
 
-Process comments from a Go source file and output to the terminal:
+`nogocomments --file /path/to/your/source.go > newfile.go`
 
-```bash
-nogocomments -file /path/to/your/file.go
-```
+**Enable debug mode for more detailed logs:**
 
-Write processed output to a new file:
+`nogocomments --debug --file /path/to/your/file.go`
 
-```bash
-nogocomments -file /path/to/your/source.go > newfile.go
-```
+**Print the version, build details, and license information:**
 
-Enable debug mode for detailed logs:
+`nogocomments --version`
 
-```bash
-nogocomments -debug -file /path/to/your/file.go
-```
+# BUGS
 
-REPORTING BUGS
-==============
+Report issues at the project tracker: https://github.com/pierow2k/nogocomments/issues
 
-Report bugs or suggest improvements via GitHub Issues:
+# COPYRIGHT
 
-https://github.com/pierow2k/nogocomments/issues/
+Copyright (C) {{copyright_date}} Pierow2K.
 
-COPYRIGHT
-=========
+# LICENSE
 
-Copyright (c) {{copyright_date}} Pierow2K. Released under the MIT License.
+nogocomments is distributed under the MIT License.  
+See the `LICENSE` file for details.
