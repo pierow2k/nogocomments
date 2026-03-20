@@ -62,3 +62,4 @@ _WIP/*
 dist/*
 !dist/.gitkeep
 doc/nogocomments.1
+bin
