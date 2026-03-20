@@ -59,8 +59,6 @@ _WIP
 # Project Specific
 Makefile
 _WIP/*
-bin/*
-!bin/.gitkeep
 dist/*
 !dist/.gitkeep
 doc/nogocomments.1
