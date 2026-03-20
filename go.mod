@@ -1,10 +1,10 @@
 module github.com/pierow2k/nogocomments
 
-go 1.24.5
+go 1.26.1
 
 require (
 	github.com/atotto/clipboard v0.1.4
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 )
 
 require (
