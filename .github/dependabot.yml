@@ -10,5 +10,5 @@ updates:
     schedule:
       interval: "weekly"
     groups:
-      direct-dependencies:
-        dependency-type: "direct"
+      all-dependencies:
+        dependency-type: "all"
