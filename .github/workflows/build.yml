@@ -1,5 +1,7 @@
 name: 'Go Build and Test'
 description: 'Runs go build and go test using a matrix for the OS.'
+permissions:
+  contents: read
 
 on:
   pull_request:

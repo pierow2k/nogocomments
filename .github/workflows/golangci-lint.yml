@@ -1,13 +1,11 @@
 name: 'Run golangci-lint'
 description: 'Runs golangci-lint on the repository.'
+permissions:
+  contents: read
 
 on:
   pull_request:
   push:
-
-permissions:
-  contents: read
-  pull-requests: read
 
 jobs:
   golangci-lint:

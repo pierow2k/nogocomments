@@ -1,5 +1,7 @@
 name: 'Go Static Analysers'
 description: 'Runs go vet, govulncheck, and staticcheck on the repository.'
+permissions:
+  contents: read
 
 on:
   pull_request:
