@@ -4,23 +4,26 @@
 <div align="center">
 
 ![nogocomments Banner](./assets/nogocomments_banner-1200x400.png)  
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fpkg.go.dev%2Fgithub.com%2Fpierow2k%2Fnogocomments)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/pierow2k/nogocomments/build.yml)
 ![Go Version](https://img.shields.io/github/go-mod/go-version/pierow2k/nogocomments)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9244c6e7b1c34502bb72af0df7ec29a9)](https://app.codacy.com/gh/pierow2k/nogocomments/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+![Human Badge](https://img.shields.io/badge/created%20by-human-brightgreen)
 ![License](https://img.shields.io/github/license/pierow2k/nogocomments)
-
-**Instantly Remove Comments from Your Go Code**
 
 </div>
 
+**Remove Comments from Your Go Code**
+
 **nogocomments** is a command-line tool designed to simplify the process
 of removing comments from Go source code. Whether you're preparing code
-snippets for sharing, streamlining code reviews, or simply trying to
-frustrate a co-worker, **nogocomments** is a fast and reliable solution. By
+snippets for sharing, streamlining code reviews, *or simply trying to
+frustrate a co-worker,* **nogocomments** is a fast and reliable solution. By
 focusing on efficiency and simplicity, it ensures that your code is ready
 for any context where comments might not be needed.
 
-| Before                                           | After |
-|--------------------------------------------------|----------------------------------------------------|
+| Before                                              | After                                              |
+|-----------------------------------------------------|----------------------------------------------------|
 | ![nogocomments Banner](./assets/example-before.png) | ![nogocomments Banner](./assets/example-after.png) |
 
 <!-- TABLE OF CONTENTS -->
@@ -52,7 +55,6 @@ nogocomments [INPUT_FILE] [flags]
 
 | Short | Long        | Description                              |
 | :---: | :---------- | :--------------------------------------- |
-| `-d`  | `--debug`   | Enable debug (verbose) logging           |
 | `-h`  | `--help`    | Show help                                |
 | `-p`  | `--paste`   | Read code from clipboard                 |
 | `-v`  | `--version` | Show version, build details, and license |
@@ -74,11 +76,7 @@ Remove comments from a Go file and write the result to a new file:
 
 `nogocomments --file /path/to/your/source.go > newfile.go`
 
-Enable debug mode for more detailed logs:
-
-`nogocomments --debug --file /path/to/your/file.go`
-
-Print the version, build details, and license information:
+Print version, build details, and license information:
 
 `nogocomments --version`
 
