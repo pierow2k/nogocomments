@@ -9,6 +9,9 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    allow:
+      - dependency-type: "direct"
     groups:
-      all-dependencies:
-        dependency-type: "all"
+      direct-dependencies:
+        patterns:
+          - "*"
