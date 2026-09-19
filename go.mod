@@ -1,4 +1,4 @@
-module github.com/pierow2k/nogocomments
+module github.com/pierow2k/nogocomments/v3
 
 go 1.26.8
 

@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/atotto/clipboard"
-	"github.com/pierow2k/nogocomments/pkg/commentremover"
+	"github.com/pierow2k/nogocomments/v3/pkg/commentremover"
 	"github.com/spf13/cobra"
 )
 

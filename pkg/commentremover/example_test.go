@@ -3,7 +3,7 @@ package commentremover_test
 import (
 	"fmt"
 
-	"github.com/pierow2k/nogocomments/pkg/commentremover"
+	"github.com/pierow2k/nogocomments/v3/pkg/commentremover"
 )
 
 // The RemoveComments function removes all comments from the provided Go

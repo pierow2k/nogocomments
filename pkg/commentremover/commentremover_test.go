@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pierow2k/nogocomments/pkg/commentremover"
+	"github.com/pierow2k/nogocomments/v3/pkg/commentremover"
 )
 
 // TestRemoveComments provides unit tests for the RemoveComments function.
