@@ -14,7 +14,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-## [v3.0.2]
+## [3.0.3] - 2026-09-18
+
+### Changed
+
+- fix(ci): use v3 module path when requesting package refresh
+- fix(changelog): version tags references
+
+## [3.0.2] - 2026-09-18
 
 ### Changed
 
@@ -60,6 +67,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release.
 
 [unreleased]: https://github.com/pierow2k/nogocomments/compare/v1.1.0...HEAD
+[3.0.3]: https://github.com/pierow2k/nogocomments/compare/v3.0.2...v3.0.3
 [3.0.2]: https://github.com/pierow2k/nogocomments/compare/v3.0.1...v3.0.2
 [3.0.1]: https://github.com/pierow2k/nogocomments/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/pierow2k/nogocomments/compare/v2.0.0...v3.0.0
