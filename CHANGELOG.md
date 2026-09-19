@@ -14,6 +14,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [3.0.1] - 2026-09-18
+
+### Changed
+
+- Bump Go to v1.26.8
+- Bump gomodguard to v2
+
 ## [3.0.0] - 2026-03-24
 
 ### Breaking
@@ -47,6 +54,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release.
 
 [unreleased]: https://github.com/pierow2k/nogocomments/compare/v1.1.0...HEAD
+[3.0.1]: https://github.com/pierow2k/nogocomments/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/pierow2k/nogocomments/compare/v2.0.0...v3.0.0
 [2.0.0]: https://github.com/pierow2k/nogocomments/compare/v1.0.3...v2.0.0
 [1.0.3]: https://github.com/pierow2k/nogocomments/compare/v1.0.0...v1.0.3
