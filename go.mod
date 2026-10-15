@@ -1,6 +1,6 @@
 module github.com/pierow2k/nogocomments/v3
 
-go 1.26.8
+go 1.26.9
 
 require (
 	github.com/atotto/clipboard v0.1.4
