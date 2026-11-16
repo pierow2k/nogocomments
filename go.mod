@@ -1,6 +1,6 @@
 module github.com/pierow2k/nogocomments/v3
 
-go 1.26.9
+go 1.26.11
 
 require (
 	github.com/atotto/clipboard v0.1.4
@@ -9,5 +9,5 @@ require (
 
 require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/spf13/pflag v1.0.10 // indirect
+	github.com/spf13/pflag v1.1.0 // indirect
 )
